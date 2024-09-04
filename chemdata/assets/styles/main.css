@@ -1,0 +1,106 @@
+.dancing-script-font {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.first {
+  width: 100%;
+}
+
+.second {
+  width: 100%;
+}
+
+.about-me {
+  @apply h-screen flex flex-col space-y-4 items-center px-12 py-12;
+  max-width: 40%;
+}
+
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center-txt {
+  text-align: center;
+}
+body {
+  text-align: justify;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: default;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  padding: 0.25em 0.5em;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 0.25em;
+  white-space: nowrap;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 100%;
+  transition-property: visibility;
+  transition-delay: 0s;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  transition-delay: 0.3s;
+}
+
+.link-color { color: #8B5CF6; } 
+.link-color:hover { color: #A4A4A4; }
+
+.hidden {
+  display:none;
+}
+
+.button {
+  cursor: pointer;
+}
+
+.button:active {
+  transform: translateY(3px);
+}
+
+.thought {
+  display:flex;
+  background-color:#fff;
+  padding:10px;
+  border-radius:30px;
+  min-width:40px;
+  max-width:200px;
+  max-height:50px;
+  min-height:40px;
+  margin:20px;
+  position:relative;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+}
+
+.thought:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	margin-top: -12px;
+	margin-left: -15px;
+  height: 25px;
+  width: 25px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+}
