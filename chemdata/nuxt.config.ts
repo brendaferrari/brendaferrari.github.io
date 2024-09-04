@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   app: { 
-    baseURL: "/brendaferrari.github.io/chemdata",
+    baseURL: "/brendaferrari.github.io/",
     pageTransition: {name: 'page', mode: 'out-in'},
     head: {
       link: [{ rel: 'icon', type: 'image/png', href: '/favicon.png' }]
